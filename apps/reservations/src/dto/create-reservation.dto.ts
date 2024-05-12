@@ -1,1 +1,6 @@
-export class CreateReservationDto {}
+export class CreateReservationDto {
+  placeId: string;
+  invoiceId: string;
+  startDate: Date;
+  endDate: Date;
+}
